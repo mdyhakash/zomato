@@ -1,0 +1,20 @@
+:root {
+  /* Light theme colors */
+  --primary-color: #ff5733;
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --border-color: #e0e0e0;
+  --input-bg: #f5f5f5;
+  --shadow: rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #ff7755;
+    --background-color: #1a1a1a;
+    --text-color: #ffffff;
+    --border-color: #404040;
+    --input-bg: #2d2d2d;
+    --shadow: rgba(0, 0, 0, 0.3);
+  }
+}
